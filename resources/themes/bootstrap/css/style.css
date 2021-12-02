@@ -4,6 +4,7 @@
 
 body {
     padding: 70px 0 0;
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
 }
 
 body.breadcrumb-fixed {
@@ -22,7 +23,6 @@ body.breadcrumb-fixed {
 #page-navbar .navbar-text {
     display: block;
     float: left;
-    font-family: 'Cutive Mono', monospace, serif;
     max-width: 80%;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -35,13 +35,12 @@ body.breadcrumb-fixed {
 /* ---------------------------------------------------------------------------------------------- */
 
 #directory-list-header {
-    font-family: 'Cutive Mono', monospace, serif;
     font-weight: bold;
     padding: 10px 15px;
 }
 
 #directory-listing {
-    font-family: 'Cutive Mono', monospace, serif;
+
 }
 
 #directory-listing li {
@@ -81,6 +80,7 @@ body.breadcrumb-fixed {
 .footer {
     margin: 20px;
     text-align: center;
+    font-size: 12px;
 }
 
 
@@ -99,7 +99,7 @@ body.breadcrumb-fixed {
 
 #file-info .md5-hash,
 #file-info .sha1-hash {
-    font-family: 'Cutive Mono', monospace, serif;
+
 }
 
 
